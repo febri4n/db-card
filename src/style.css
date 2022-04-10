@@ -1,12 +1,10 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   background: #23252C;
   font-family: 'Inter';
 }
-
 .businnes_card {
   margin: 20px auto;
   width: 317px;
