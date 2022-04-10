@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #23252C;
+  font-family: 'Inter';
+}
+
+.businnes_card {
+  margin: 20px auto;
+  width: 317px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card {
+  width: 317px;
+  min-width: 317px;
+  min-height: 317px;
+  background-image: url(./assets/LauraSmith.png);
+}
+.info-card {
+  height: auto;
+  padding: 20px 35px 31px 35px;
+  background-color: #1A1B21;
+}
+.profile {
+  text-align: center;
+}
+.profile > h3 {
+  font-size: 2rem;
+  color: #ffffff;
+  line-height: 0px;
+}
+.profile > span {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #f47d27;
+  line-height: 0px;
+}
+.profile > p {
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+  color: #ffffff;
+  line-height: 0px;
+
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  width: 115px;
+  height: 34px;
+  margin-top: 17px;
+  padding: 9px 13px 9px 11px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+.btn-email {
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+.btn-email > img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.btn-email > span {
+  color: #374151;
+}
+.btn-linkedin {
+  background-color: #297fe5;
+  border: 1px solid #297fe5;
+}
+.btn-linkedin > img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.btn-linkedin > span {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+}
+.content-card > span {
+  margin-top: 25px;
+  display: block;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+.content-card > p {
+  margin-top: 5px;
+  line-height: 150%;
+  font-size: 1rem;
+  color: #ffffff;
+}
+.footer-card {
+  width: 317px;
+  border-radius: 0 0 10px 10px;
+  background-color: #161619;
+}
+.footer-icons {
+  width: 172px;
+  height: 64px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
